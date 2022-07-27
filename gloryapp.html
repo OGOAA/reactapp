@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3 id="sola"></h3>
+    <script>
+        var a= new Date();
+        var b= ["Sunday" ,"monday","tuesday","wednesday","thursday","friday","saturday"]
+        var c= b[a.getDay()];
+        if(c=="Sunday"){
+            document.getElementById("sola").innerHTML="Today is "+ "" + c + ""+ " We are going to church"
+        }
+        if(c=="monday"){
+            document.getElementById("sola").innerHTML="Today is " + "" + c + "" + " We are going to work"
+        }
+        if(c=="tuesday"){
+            document.getElementById("sola").innerHTML="Today is " + "" + c + "" + " we are going to work"
+        }
+        if(c=="wednesday"){
+            document.getElementById("sola").innerHTML="Today is" + "" + c + "" + "we are going to work"
+        }
+        if(c=="thursday"){
+            document.getElementById("sola").innerHTML="Today is" + "" + c + "" + "thank God it's friday"
+        }
+        if(c=="friday"){
+            document.getElementById("sola").innerHTML="Today is" + "" + c + "" + "time to have fun"
+        }
+        if(c=="saturday"){
+            document.getElementById("sola").innerHTML="Today is" + "" + c + "" + "time to go to church"//same value same datatype
+        }
+    </script>
+</body>
+</html> 

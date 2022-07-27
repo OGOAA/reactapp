@@ -1,0 +1,12 @@
+.hann ul{
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    background-color: black;
+    padding:20px
+
+}
+li{
+    list-style-type: none;
+    color: wheat;
+}
